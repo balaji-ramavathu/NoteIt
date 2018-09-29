@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_addnote"
+        android:orderInCategory="300"
+        android:title="User"
+        android:icon="@drawable/ic_note_add_black_24dp"
+        app:showAsAction="always"></item>
+    <item android:title="Refresh"
+        android:id="@+id/btnrefresh"
+        android:icon="@drawable/ic_action_refresh"
+        android:showAsAction="always"
+        android:orderInCategory="301"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_search"
+        android:orderInCategory="400"
+        android:title="User"
+        android:icon="@drawable/ic_search_black_24dp"
+        app:showAsAction="always"></item>
+
+
+</menu>
